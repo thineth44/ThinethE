@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Product Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1em 2em;
+        }
+        .logo {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        nav {
+            display: flex;
+            gap: 1em;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0.5em 1em;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .search-bar {
+            display: flex;
+            align-items: center;
+        }
+        .search-bar input {
+            padding: 0.5em;
+            border: none;
+            border-radius: 3px;
+        }
+        .search-bar button {
+            padding: 0.5em 1em;
+            border: none;
+            background-color: #e8491d;
+            color: #fff;
+            cursor: pointer;
+            border-radius: 3px;
+            margin-left: 0.5em;
+            transition: background-color 0.3s;
+        }
+        .search-bar button:hover {
+            background-color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .product {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 1em;
+            padding: 1em;
+            width: calc(25% - 2em);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .product img {
+            max-width: 100%;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 1em;
+        }
+        .product h3 {
+            margin: 0;
+            padding: 0.5em 0;
+        }
+        .product p {
+            color: #555;
+        }
+        .product .price {
+            font-size: 1.2em;
+            color: #e8491d;
+        }
+        .product button {
+            background-color: #ff5e00;
+            color: #ffffff;
+            border: none;
+            padding: 0.5em 1em;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            border-radius: 50px;
+        }
+        .product button:hover {
+            background-color: #fa5c00;
+        }
+        .product:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Thineth E-Product </div>
+        <nav>
+ 
+            <a href="#"><a href="https://api.whatsapp.com/send/?phone=%2B94774337016&text&app_absent=0">Contact</a></a>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Search products...">
+            <button>Search</button>
+        </div>
+    </header>
+    <div class="container">
+        <div class="products">
+            <div class="product">
+                <img src="https://www.bing.com/images/blob?bcid=RDLyhVaA3DIHkibdjBBLSrdU5R7C.....-c" alt="Product 1">
+                <h3>Web Site</h3>
+                <p>This is a great product.  Buy now</p>
+                <p class="price">3500LKR</p>
+                <button><a href="https://api.whatsapp.com/send/?phone=%2B94774337016&text&app_absent=0">Buy Now</a></button>
+            </div>
+            <div class="product">
+                <img src="https://th.bing.com/th/id/R.34aafd6630794d55b228de3196a63901?rik=CZH2%2fQZG73unmw&pid=ImgRaw&r=0" alt="Product 2">
+                <h3>Unity Game (For Pc)</h3>
+                <p>This is another great product.  Buy now</p>
+                <p class="price">2000LKR</p>
+                <button><a href="https://api.whatsapp.com/send/?phone=%2B94774337016&text&app_absent=0">Buy Now</a></button>
+            </div>
+            <div class="product">
+                <img src="https://th.bing.com/th/id/R.b5e51776379c27f264c79ead6ed1317c?rik=IzrBWuysa2sk7w&pid=ImgRaw&r=0" alt="Product 3">
+                <h3>Blog  (Blogger)</h3>
+                <p>This product is amazing.  Buy now</p>
+                <p class="price">1000LKR</p>
+                <button><a href="https://api.whatsapp.com/send/?phone=%2B94774337016&text&app_absent=0">Buy Now</a></button>
+            </div>
+            <div class="product">
+                <img src="https://th.bing.com/th/id/R.fdb1e5540990a1fc716d3be353a2351b?rik=kz4DuwlThAANTg&pid=ImgRaw&r=0" alt="Product 4">
+                <h3>logo</h3>
+                <p>This is another great product Buy now</p>
+                <p class="price">250LKR</p>
+                <button><a href="https://api.whatsapp.com/send/?phone=%2B94774337016&text&app_absent=0">Buy Now</a></button>
+            </div>
+            <div class="product">
+                <img src="https://th.bing.com/th/id/OIP.HNUOoFqiWNktXWVMPYKeXgHaFG?rs=1&pid=ImgDetMain" alt="Product 4">
+                <h3>Web Site Host</h3>
+                <p>This is another great product Buy now</p>
+                <p class="price">500LKR</p>
+                <button><a href="https://api.whatsapp.com/send/?phone=%2B94774337016&text&app_absent=0">Buy Now</a></button>
+            </div></div>
+    </div>
+</body>
+</html>
